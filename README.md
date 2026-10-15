@@ -204,3 +204,7 @@ Os links de rotas e a estrutura dos componentes foram revisados no código. Não
 7. Teste a página inicial e rotas como `/colecao`, `/sobre`, `/faq`, `/carrinho` e `/favoritos`, inclusive após atualizar a página. O arquivo `vercel.json` inclui o fallback de rotas para a aplicação de página única.
 
 A publicação não conecta Shopify nem ativa pagamentos, estoque, frete ou pedidos reais. Antes de divulgar como loja operacional, substitua produtos, preços e imagens demonstrativos e finalize as políticas provisórias. O deploy só deve ser considerado concluído depois de a Vercel confirmar o build e fornecer o endereço.
+
+
+## Correção de compilação
+O rodapé não depende mais de importações de ícones de redes sociais; confira o resultado do build na Vercel antes de considerar a publicação concluída.
